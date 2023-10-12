@@ -1,0 +1,28 @@
+header {
+    height: 20vh;
+    width: 100vw;
+    min-height: 150px;    
+    background-image: url('../images/milky-way-2695569_1280.jpg'); /*pixabayn ilmaiskuva*/
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header h1 {
+    font-size: 5vw;    
+    color: transparent;
+    font-weight: bold;
+    -webkit-text-stroke: 0.2vw #ffdf00;    
+}
+
+@media (max-width:600px) {
+    .header h1 {
+        font-size: 2em;
+        color: #ffdf00;
+        color: transparent;
+    font-weight: bold;
+    -webkit-text-stroke: 0.3vw #ffdf00;
+    }
+}
