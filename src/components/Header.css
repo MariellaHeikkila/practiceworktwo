@@ -22,7 +22,7 @@ header {
         font-size: 2em;
         color: #ffdf00;
         color: transparent;
-    font-weight: bold;
-    -webkit-text-stroke: 0.3vw #ffdf00;
+        font-weight: bold;
+        -webkit-text-stroke: 0.3vw #ffdf00;
     }
 }
